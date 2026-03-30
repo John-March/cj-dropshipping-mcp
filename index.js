@@ -1,0 +1,18 @@
+{
+  "name": "cj-dropshipping-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for CJ Dropshipping API",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "express": "^4.18.2",
+    "zod": "^3.22.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
